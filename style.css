@@ -76,7 +76,7 @@ body{
     line-height: 20px;
     color: #C0C0C0;
 }
-.aperture-studios-info{
+.aperture-studios-info, .aperture-post-info{
     margin-left: 77.6%;
     margin-bottom: 40px;
     font-size: 12px;
@@ -89,4 +89,108 @@ body{
 }
 .aperture-studios-info img:first-of-type{
     margin-left: 0;
+}
+.aperture-areas{
+    width: 1168px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.aperture-areas-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 4px;
+}
+.aperture-area{
+    width: 576px;
+   padding-left: 30px;
+    padding-right: 45px;
+    padding-bottom: 30px;
+    margin-bottom: 4px;
+}
+.aperture-area:nth-child(1){
+    background: url("./images/aperture-area-1.png") no-repeat; 
+}
+.aperture-area:nth-child(2){
+    background: url("./images/aperture-area-2.png") no-repeat; 
+}
+.aperture-area:nth-child(3){
+    background: url("./images/aperture-area-3.png") no-repeat; 
+}
+.aperture-area:nth-child(4){
+    background: url("./images/aperture-area-4.png") no-repeat; 
+}
+.aperture-area-category, .aperture-area-desc{
+    font-size: 14px;
+    line-height: 20px;
+    
+}
+.aperture-area-category{
+    margin-top: 421px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.aperture-area:nth-child(3) .aperture-area-category, .aperture-area:nth-child(4) .aperture-area-category {
+    margin-top: 401px;    
+}
+.aperture-area-desc{
+    margin-bottom: 10px;
+    width: 501px;
+    font-size: 14px;
+    line-height: 20px;
+     color: #C0C0C0;
+}
+.aperture-area:nth-child(2) .aperture-area-desc {
+    width: 514px;
+}
+.aperture-area:nth-child(3) .aperture-area-desc {
+    width: 516px;
+}
+.aperture-area:nth-child(4) .aperture-area-desc {
+    width: 480px;
+}
+.aperture-area-more{
+    width: 143px;
+    border: 1px solid #FFFFFF;
+    background: #FFFFFF url("./images/aperture-area-frame.svg") no-repeat left;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 6px;
+    border-radius: 6px;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    cursor: pointer;
+}
+.aperture-post {
+    background: url("./images/post-1.png") no-repeat;
+    padding-top: 260px;
+    padding-bottom: 40px;
+}
+.aperture-post-title, .aperture-post-desc{
+    margin-left: 70%;
+}
+.aperture-post-title{
+ 
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF
+}
+.aperture-post-desc{
+    width: 319px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.aperture-post-info{
+    margin-top: 200px;
+    margin-bottom: 0;
 }
