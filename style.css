@@ -5,6 +5,7 @@
 }
 body{
     width: 1440px;
+    margin: 0 auto;
     background-color: #000;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -76,7 +77,7 @@ body{
     line-height: 20px;
     color: #C0C0C0;
 }
-.aperture-studios-info, .aperture-post-info{
+.aperture-studios-info, .aperture-post-info, .aperture-tools-info{
     margin-left: 77.6%;
     margin-bottom: 40px;
     font-size: 12px;
@@ -154,7 +155,7 @@ body{
 .aperture-area:nth-child(4) .aperture-area-desc {
     width: 480px;
 }
-.aperture-area-more{
+.aperture-area-more, .aperture-tools-check{
     width: 143px;
     border: 1px solid #FFFFFF;
     background: #FFFFFF url("./images/aperture-area-frame.svg") no-repeat left;
@@ -193,4 +194,84 @@ body{
 .aperture-post-info{
     margin-top: 200px;
     margin-bottom: 0;
+}
+.aperture-tools{
+    width: 1440px;
+    background: url("./images/tools.png") no-repeat right;
+    height: 540px;
+    position: relative;
+}
+.aperture-tools-content{
+    position: absolute;
+    top: 173px;
+    left: 100px;
+}
+.aperture-tools-subtitle{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.aperture-tools-title{
+    margin-top: 6px;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.aperture-tools-desc{
+    margin-top: 6px;
+    margin-bottom: 20px;
+    width: 514px;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.aperture-tools-check{
+    padding-left: 24px;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+}
+.aperture-tools-info{
+   position: absolute;
+   width: 281px;
+   top: 470px;
+   right: 0; 
+}
+.post-costa{
+    background: url("./images/post-2.png"), no-repeat;
+}
+.post-costa .aperture-post-desc {
+    width: 273px;
+}
+.post-costa .aperture-post-info {
+    margin-left: 70%;
+}
+.aperture-clients{
+    width: 1168px;
+    margin: 113px auto;
+
+}
+.aperture-clients-title{
+    margin-bottom: 15px;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.aperture-clients-subtitle{
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+}
+.aperture-clients-logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+.aperture-clients-logos img {
+    display: block;
 }
