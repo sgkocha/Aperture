@@ -155,7 +155,7 @@ body{
 .aperture-area:nth-child(4) .aperture-area-desc {
     width: 480px;
 }
-.aperture-area-more, .aperture-tools-check{
+.aperture-area-more, .aperture-tools-check, .aperture-touch-btn{
     width: 143px;
     border: 1px solid #FFFFFF;
     background: #FFFFFF url("./images/aperture-area-frame.svg") no-repeat left;
@@ -274,4 +274,127 @@ body{
 }
 .aperture-clients-logos img {
     display: block;
+}
+.himalayas{
+    background: url("./images/post-3.png") no-repeat;
+}
+.himalayas .aperture-post-desc{
+    width: 241px;
+} 
+.aperture-touch{
+    width: 571px;
+    margin: 113px auto;
+    text-align: center;
+}
+.aperture-touch-title{
+    margin-bottom: 10px;
+    font-size: 40px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+.aperture-touch-subtitle{
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #C0C0C0;
+}
+.aperture-touch-btn{
+    margin-bottom: 108px;
+    padding-left: 20px;
+}
+.footer-container {
+    width: 1168px;
+    margin: 100px auto;
+} 
+.footer-bar, .footer-links, .footer-subscribe, .footer-sub{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bar{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.footer-info{
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.footer-links{
+    gap: 35px
+}
+.footer-links-title{
+    margin-bottom: 12px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.footer-links-list{
+    list-style-type: none;
+}
+.footer-link{
+    margin-bottom: 12px;
+}
+.footer-link a {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-subscribe{
+    padding-top: 35px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #FFFFFF;
+}
+.footer-subscribe-title{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer-subscribe-subtitle{
+    margin-top: 20px;
+    font-size: 13px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.subscribe-form{
+    display: flex;
+    width: 458px;
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+}
+.subscribe-email{
+    display: block;
+    border: none;
+    outline: none;
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+}
+.subscribe-btn{
+    display: block;
+    margin-top: 12px;
+    width: 63px;
+    height: 30px;
+    background-color: #000000;
+    border: 1px solid #000000;
+    border-radius: 11px;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.footer-sub{
+    padding-top: 56px;
+    padding-bottom: 100px;
+}
+.footer-copyright{
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.footer-social img{
+    margin-left: 20px;
 }
